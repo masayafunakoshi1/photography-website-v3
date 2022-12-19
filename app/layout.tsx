@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/globals.css'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
@@ -8,10 +9,12 @@ const RootLayout = ({ children }: {
   {
     return (
     <html lang="en">
-        <body className='p-2 w-100'>
-            <Navbar />
-            {children}
-            <Footer />
+        <body className='flex'>
+            <div>
+                <Navbar />
+                {children}
+                <Footer />
+            </div>
         </body>
     </html>
     );
