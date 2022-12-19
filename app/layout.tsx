@@ -1,5 +1,6 @@
-import React from 'react'
-import Head from 'next/head';
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 const RootLayout = ({ children }: {
     children: React.ReactNode;
@@ -7,13 +8,10 @@ const RootLayout = ({ children }: {
   {
     return (
     <html lang="en">
-        <Head>
-            <title>Masaya Funakoshi Photography</title>
-        </Head>
-        <body>
-            {/* Add nav bar */}
+        <body className='p-2 w-100'>
+            <Navbar />
             {children}
-            {/* Add footer */}
+            <Footer />
         </body>
     </html>
     );
