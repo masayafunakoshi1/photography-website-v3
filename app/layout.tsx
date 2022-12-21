@@ -9,10 +9,11 @@ const RootLayout = ({ children }: {
   {
     return (
     <html lang="en">
-        <body className='flex'>
+        <body>
             <div>
-                <Navbar />
-                {children}
+                <Navbar>
+                    {children}
+                </Navbar>
                 <Footer />
             </div>
         </body>
