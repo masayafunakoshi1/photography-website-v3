@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LandingSection from '../components/Home/LandingSection'
+import HeroSection from '../components/Home/HeroSection'
 import PictureSection from '../components/Home/PictureSection'
 import AboutMeSection from '../components/Home/AboutMeSection'
 import ContactSection from '../components/Home/ContactSection'
@@ -8,8 +8,8 @@ import ContactSection from '../components/Home/ContactSection'
 const Page = () => {
 
     return (
-        <div className='p-2 flex-row justify-center items-center overflow-hidden'>
-            <LandingSection />
+        <div className="overflow-hidden">
+            <HeroSection />
             <PictureSection />
             <AboutMeSection />
             <PictureSection />
