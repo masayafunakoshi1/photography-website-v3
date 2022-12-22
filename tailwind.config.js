@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
     content: [
         "./pages/**/*.{js,ts,jsx,tsx}",
         "./components/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
+        fontFamily: {
+            'font-roboto': ["Roboto", "Arial"]
+        },
         letterSpacing: {
             tightest: '-.075em',
             tighter: '-.05em',
@@ -12,7 +16,7 @@ module.exports = {
             normal: '0',
             wide: '.025em',
             wider: '.05em',
-            widest: '.18em',
+            widest: '.135em',
         },
         extend: {
             colors:{
