@@ -2,22 +2,22 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import {BiMenu} from 'react-icons/bi'
+import {RxHamburgerMenu} from 'react-icons/rx'
 
 const Navbar = () => {
   return (
         <div>
             {/* <!-- Navbar --> */}
-            <div className="w-100 navbar bg-transparent flex justify-between max-h-28 pt-5 px-5">
+            <div className="w-100 navbar bg-transparent flex justify-between max-h-28 pt-3 px-5">
                 <Link href="/">
-                    <div className="flex-none px-2 mx-2"> 
-                        <Image src="/images/MF.png" priority alt={"Icon of MF Photography"} width={50} height={50} />
+                    <div className="flex-none px-2"> 
+                        <Image src="/images/MF.png" priority alt={"Icon of MF Photography"} width={30} height={30} />
                     </div>
                 </Link>
                 <div className="flex-end">
                     <div className="lg:hidden">
                         <label className="btn btn-square btn-ghost">
-                            <BiMenu size={40} />
+                            <RxHamburgerMenu size={25} />
                         </label>
                     </div> 
 
