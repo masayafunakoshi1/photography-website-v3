@@ -14,6 +14,8 @@ const RootLayout = ({ children }: Props) =>
     <html lang="en">
         <body> 
             {/* figure out drawer */}
+            {/* add specific width boundaries */}
+            <Navbar />
             {children}
             <Footer />
         </body>

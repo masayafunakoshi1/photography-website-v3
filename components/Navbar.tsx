@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
         <div>
             {/* <!-- Navbar --> */}
-            <div className="w-100 navbar bg-transparent flex justify-between max-h-28 pt-3 px-5">
+            <div className="w-100 absolute navbar bg-transparent flex justify-between max-h-28 pt-3 px-5">
                 <Link href="/">
                     <div className="flex-none px-2"> 
                         <Image src="/images/MF.png" priority alt={"Icon of MF Photography"} width={30} height={30} />
