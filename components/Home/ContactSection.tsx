@@ -2,7 +2,9 @@ import React from 'react'
 
 const ContactSection = () => {
   return (
-    <div>ContactSection</div>
+    <div className="h-screen background-contact">
+        ContactSection
+    </div>
   )
 }
 

@@ -2,7 +2,9 @@ import React from 'react'
 
 const AboutMeSection = () => {
   return (
-    <div>AboutMeSection</div>
+    <div className="h-screen background-about">
+        AboutMeSection
+    </div>
   )
 }
 

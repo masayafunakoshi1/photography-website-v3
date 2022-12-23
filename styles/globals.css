@@ -13,7 +13,7 @@
 }
 
 html, body{
-    background-color: black;
+    background-color: #f7f7f2;
     color: #FFFBF3;
     max-width: 100vw;
     max-height: 100vh;
@@ -27,42 +27,19 @@ html, body{
     background-position: center;
 } 
 
+.background-about{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url('/images/Storm-Watching.jpg');
+    background-size: cover;
+    background-position: center;
+} 
+
+.background-contact{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url('/images/Couple-Twirl.jpg');
+    background-size: cover;
+    background-position: center;
+} 
+
 /* GRADIENT TEXT FLOW ANIMATION */
-
-.box-glow:before {
-    /* box-shadow: 1px 1px  rgba(255, 255, 255, 0.582); */
-    content: "";
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(-45deg, #f5f5f5 0%, #9ea0a3 100% );
-    transform: translate3d(0px, 20px, 0) scale(0.95);
-    filter: blur(20px);
-    opacity: var(0.7);
-    transition: opacity 0.3s;
-    border-radius: inherit;
-    
-}
-
-.box-glow::after {
-    content: "";
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: inherit;
-    border-radius: inherit;
-}
-
-.text-animation{
-    background-size: 200% 200%;
-    animation: gradient-animation 3s ease infinite;
-}
 
 
 /* KeyFrames for gradient animation*/
