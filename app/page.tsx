@@ -8,9 +8,9 @@ import ContactSection from '../components/Home/ContactSection'
 const Page = () => {
 
     return (
-        <div className="overflow-hidden">
+        <div className="flex flex-col overflow-hidden">
             <HeroSection />
-            <PictureSection />
+            <PictureSection/>
             <AboutMeSection />
             <PictureSection />
             <ContactSection />
