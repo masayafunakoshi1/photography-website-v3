@@ -25,5 +25,8 @@ module.exports = {
             }
         },
     },
+    daisyui: {
+        themes: [], //no themes or random colors
+      },
     plugins: [require("daisyui")],
 }

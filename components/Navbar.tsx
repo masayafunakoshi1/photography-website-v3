@@ -10,19 +10,19 @@ const Navbar = () => {
             {/* <!-- Navbar --> */}
             <div className="w-100 absolute navbar bg-transparent flex justify-between max-h-28 pt-3 px-5">
                 <Link href="/">
-                    <div className="flex-none px-2"> 
-                        <Image src="/images/MF.png" priority alt={"Icon of MF Photography"} width={30} height={30} />
+                    <div className="flex-none px-1 py-2"> 
+                        <Image src="/images/MF.png" priority alt={"Icon of MF Photography"} width={50} height={50}/>
                     </div>
                 </Link>
                 <div className="flex-end">
                     <div className="lg:hidden">
                         <label className="btn btn-square btn-ghost">
-                            <RxHamburgerMenu size={25} />
+                            <RxHamburgerMenu size={35} />
                         </label>
                     </div> 
 
                     <div className="hidden lg:block">
-                        <ul className="menu menu-horizontal justify-around">
+                        <ul className="menu menu-horizontal base-content justify-around">
                             {/* This one will be a dropdown */}
                             <li>
                                 <div className="dropdown dropdown-hover dropdown-bottom dropdown-end">
